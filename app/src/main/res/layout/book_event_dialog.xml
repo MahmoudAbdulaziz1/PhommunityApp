@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_style"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/event_closeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/reservation_info"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/reservation_info_ar"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_back"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/event_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:gravity="left|center_vertical"
+            android:hint="@string/name"
+            android:textColor="@android:color/black"
+            android:textColorHint="#d1d1d1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_back"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/event_email_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:gravity="left|center_vertical"
+            android:hint="@string/email"
+            android:textColor="@android:color/black"
+            android:textColorHint="#d1d1d1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_back"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/event_mobile_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:gravity="left|center_vertical"
+            android:hint="@string/mobile"
+            android:textColor="@android:color/black"
+            android:textColorHint="#d1d1d1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_back"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/event_note_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="left|top"
+            android:hint="@string/note"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:minLines="5"
+            android:textColorHint="#d1d1d1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/send_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#3C3C3B"
+        android:text="@string/submit"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

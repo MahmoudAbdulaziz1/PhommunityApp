@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/about_toolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/school"
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="98dp"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/sell"
+            android:layout_width="150dp"
+            android:layout_height="105dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="165dp"
+            android:layout_toEndOf="@+id/rent"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/rent"
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="259dp"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/cbc_lab"
+            android:layout_width="154dp"
+            android:layout_height="98dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="138dp"
+            android:layout_marginTop="301dp"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/cbc_studio"
+            android:layout_width="154dp"
+            android:layout_height="109dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cbc_lab"
+            android:layout_marginStart="221dp"
+            android:layout_marginTop="13dp"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <!--<Button-->
+        <!--android:id="@+id/help"-->
+        <!--android:layout_width="149dp"-->
+        <!--android:layout_height="118dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="170dp"-->
+        <!--android:layout_toStartOf="@+id/sell"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:text="" />-->
+
+        <Button
+            android:id="@+id/assistant_second_shooter"
+            android:layout_width="240dp"
+            android:layout_height="143dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="181dp"
+            android:layout_marginEnd="27dp"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/welcome"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignStart="@+id/assistant_second_shooter"-->
+        <!--android:layout_marginTop="140dp"-->
+        <!--android:text="Welcome"-->
+        <!--style="@style/TextAppearance.AppCompat.Small" />-->
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_width="156dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="74dp"
+            android:layout_marginTop="180dp"
+            android:gravity="center_horizontal"
+            android:text="Mahmoud"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="143dp"
+            android:layout_height="96dp"
+            android:layout_alignEnd="@+id/rent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="179dp"
+            android:layout_marginEnd="-34dp"
+            android:background="@drawable/background_transparent"
+            android:text="" />
+
+
+    </RelativeLayout>
+</LinearLayout>

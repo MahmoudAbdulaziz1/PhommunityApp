@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleWorkCardView"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+
+    >
+
+    <ImageView
+        android:id="@+id/simpleWorkImage"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+
+        />
+
+</LinearLayout>

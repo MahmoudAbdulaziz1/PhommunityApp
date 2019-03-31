@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<ScrollView
+		android:id="@+id/scroller2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dip"
+		android:background="@drawable/selector_quick_action"
+		android:fadingEdgeLength="5dip"
+		android:scrollbars="none"
+		android:layout_marginLeft="65dp"
+		android:layout_marginRight="55dp">
+
+		<LinearLayout
+			android:id="@+id/tracks2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:padding="10dip"
+			android:background="@drawable/check_nine" />
+
+	</ScrollView>
+
+	<ImageView
+		android:id="@+id/arrow_up2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginRight="65dp"/>
+
+	<ImageView
+		android:id="@+id/arrow_down2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/scroller2"
+		android:layout_marginTop="-4dip"
+		android:layout_marginRight="65dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/help"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/about_toolbar_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></FrameLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="180dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="205dp">
+
+                    <LinearLayout
+                        android:id="@+id/recycler_layout_help"
+                        android:layout_width="match_parent"
+                        android:layout_height="460dp"
+                        android:background="@color/colorAccent"
+                        android:orientation="vertical">
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/help_recycle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15sp"
+                            android:scrollbars="vertical">
+
+                        </android.support.v7.widget.RecyclerView>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/help_send_message"
+                        style="@style/TextAppearance.AppCompat.Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/recycler_layout_help"
+                        android:layout_marginTop="15dp"
+                        android:background="#e2e2e2"
+                        android:gravity="top"
+                        android:hint="@string/send_messge"
+                        android:paddingLeft="9dp"
+                        android:textColor="#000" />
+
+                    <Button
+                        android:id="@+id/send_help_message_btn"
+                        style="@style/TextAppearance.AppCompat.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/help_send_message"
+                        android:layout_marginTop="25dp"
+                        android:background="#000000"
+                        android:padding="20dp"
+                        android:text="@string/send_messge"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

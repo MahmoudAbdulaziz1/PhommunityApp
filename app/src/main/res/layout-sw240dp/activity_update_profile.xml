@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/about_toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/register_background"
+        android:overScrollMode="always"
+        android:paddingTop="10dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_first_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:id="@+id/update_first_image"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mail" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/update_first_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/first"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_last_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/update_last_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/last"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:id="@+id/update_email_image"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/email" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/update_email_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:id="@+id/update_password_image"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lock" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/update_password_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_confirmation_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/update_confirmation_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/confirmation"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_mobile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:id="@+id/update_mobile_image"
+                    android:layout_width="18dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/mobile" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/update_mobile_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/mobile"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/update_level_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edit_text_back2"
+                    android:gravity="center_vertical">
+
+
+                    <ImageView
+                        android:id="@+id/update_level_image"
+                        android:layout_width="18dp"
+                        android:layout_height="23dp"
+                        android:src="@drawable/level2" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/update_level_edit_text"
+                        style="@android:style/TextAppearance.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableRight="@drawable/level1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/level"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColorHint="#d1d1d1"
+                        android:textStyle="bold" />
+
+                    <!--<Spinner-->
+                    <!--android:id="@+id/update_level_edit_text"-->
+                    <!--android:layout_width="270dp"-->
+                    <!--android:layout_height="33dp"-->
+                    <!--android:layout_toRightOf="@+id/piotxt5"-->
+                    <!--style="@style/spinnerItemStyle"-->
+                    <!--android:spinnerMode="dropdown"-->
+                    <!--android:drawSelectorOnTop="true"-->
+                    <!--android:entries="@array/levels"-->
+                    <!--android:prompt="@string/level"-->
+                    <!--android:overlapAnchor="false"-->
+                    <!--android:dropDownVerticalOffset="110dp"/>-->
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_camera_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:id="@+id/update_camera_image"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camera" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/update_camera_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/camrea"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="#d1d1d1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_model_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <EditText
+                    android:id="@+id/update_model_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/model"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="#D1D1D1"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/update_interest_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_back2"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:id="@+id/update_model_image"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/heart" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/update_interest_edit_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawableRight="@drawable/level1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/interseted"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="#D1D1D1"
+                    android:textStyle="bold" />
+
+                <!--<Spinner-->
+                <!--android:id="@+id/update_interest_edit_text"-->
+                <!--style="@style/spinnerItemStyle"-->
+                <!--android:layout_width="270dp"-->
+                <!--android:layout_height="33dp"-->
+                <!--android:layout_toRightOf="@+id/piotxt5"-->
+                <!--android:drawSelectorOnTop="true"-->
+                <!--android:entries="@array/interests"-->
+                <!--android:overlapAnchor="false"-->
+                <!--android:prompt="@string/level"-->
+                <!--android:spinnerMode="dropdown" />-->
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/update_upload_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edit_text_back2"
+                    android:gravity="center_vertical">
+
+
+                    <ImageView
+                        android:id="@+id/update_upload_image"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mail" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/update_upload_edit_text"
+                        style="@android:style/TextAppearance.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="@string/upload_photo"
+                        android:maxLines="1"
+                        android:textColorHint="#d1d1d1"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/update_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/update_no_file_text"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/no_file_selected"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/update_save"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:background="#3C3C3B"
+                android:paddingTop="7dp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

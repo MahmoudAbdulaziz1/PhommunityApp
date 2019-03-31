@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/feed_activity">
+
+    <FrameLayout
+        android:id="@+id/about_toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/feedback"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="230dp"
+            android:background="@color/colorAccent"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="@string/note"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_above="@+id/send_feedback_btn"
+            android:layout_marginBottom="15dp"
+            />
+
+        <Button
+            android:id="@+id/send_feedback_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="280dp"
+            android:background="#3C3C3B"
+            android:padding="12dp"
+            android:text="@string/send_fedd_back"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

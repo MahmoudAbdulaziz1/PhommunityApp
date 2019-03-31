@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Phommunity</string>
+    <string name="join_our_team">Join Our Team</string>
+    <string name="about_us">About Us</string>
+    <string name="about">About</string>
+    <string name="reviews">Reviews</string>
+    <string name="at">at&#160;</string>
+    <string name="at_symbol">@&#160;</string>
+    <string name="area">Area</string>
+    <string name="forget_password"> <u>Forget Your Password?</u></string>
+    <string name="signin">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="keep_me">Keep Me Sign In</string>
+    <string name="password">Password</string>
+    <string name="email_or_id">Email or ID</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="email">Email</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="mobile">Mobile</string>
+    <string name="level">Level</string>
+    <string name="request_info">Request Info</string>
+    <string name="request_info_ar">معلومات خاصة بطلبك</string>
+    <string name="reservation_info">Reservation Info</string>
+    <string name="reservation_info_ar">طلب حجز</string>
+    <string name="camrea">Camera Brand</string>
+    <string name="model">Model</string>
+    <string name="interseted">Interested In</string>
+    <string name="post">Post</string>
+    <string name="portrait">Portrait</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="activation_text"><i>You'll recieve an activation email that has instructions on how to active your account.</i></string>
+    <string name="user">User Name</string>
+    <string name="feedback">Feedback</string>
+    <string name="write_a_post">Write a Post</string>
+    <string name="write_a_comment">Write a Comment</string>
+    <string name="shares">Shares</string>
+    <string name="group_member">Group Member</string>
+    <string name="more">More..</string>
+    <string name="comma">,,</string>
+    <string name="reversed_comma">،،</string>
+    <string name="comments">Comments</string>
+    <string name="comment">Comment</string>
+    <string name="likes">Likes</string>
+    <string name="like">Like</string>
+    <string name="view_comments">All Comments..</string>
+
+    <string name="signout">Sign Out</string>
+    <string name="name">Name</string>
+    <string name="job_title">Job Title</string>
+    <string name="note">Note</string>
+    <string name="upload_cv">Upload CV</string>
+    <string name="send_messge">Send Message</string>
+    <string name="messge">Message</string>
+    <!--<string name="demo_about_us">Lorem apsoum demo about us token Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  vv vLorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token </string>-->
+    <string name="demo_about_us">Cairo Photography Club was founded in 2011
+Our idea was to build a community for photographers where they can learn, Practice and improve their skills, also to offer activities, workshops and outing to allow photographers to practice and improve their photography skills and encourage them to bring their best.
+Later, we started improving and adding more sections to our club to provide more integrated services to photographers to cover all their photography needs to become the photographer they want to be.
+</string>
+    <string name="phone_num_1">+2 01150018587</string>
+    <string name="phone_num_2">+2 01022263152</string>
+    <string name="contact_email">info@cairophotography.club</string>
+    <string name="location_1">Villa 46, Street #7, in front of Maadi Metro Station.</string>
+    <string name="location_2">2 Awel Mayo Building, Next to Nasr City Police Station, Nasr Street - 8th Floor.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="submit">Submit</string>
+    <string name="request">اطلب\n Request</string>
+    <string name="simple_mywork">Simple of my work</string>
+    <string name="search_secondshooter">Looking for \n SecondShooter \n بتدور علي \n مصور تاني </string>
+    <string name="search_assistant">Looking for \n Assistant \n بتدور علي \n مساعد</string>
+    <string name="register_secondshooter">Get started as \n Second Shooter \n سجل كمصور \n تاني</string>
+    <string name="register_assistant">Get started as \n assistant \n سجل كمساعد</string>
+    <string name="send_fedd_back">Send Feedback</string>
+    <string name="edit_info">Edit Information</string>
+    <string name="update_profile">Update Profile</string>
+
+    <string name="from">From &#160;</string>
+    <string name="to">To&#160;</string>
+
+    <string-array name="levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Professional</item>
+    </string-array>
+
+    <string-array name="interests">
+        <item>Portrait</item>
+        <item>Marco</item>
+        <item>Abstract</item>
+        <item>products</item>
+        <item>Sports</item>
+        <item>Press</item>
+        <item>Landscape</item>
+        <item>Architectural</item>
+        <item>Fashion</item>
+        <item>Fine Art</item>
+        <item>Wedding</item>
+        <item>Montage</item>
+        <item>Video</item>
+        <item>Newborn</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--activity_studio resources -->
+    <string name="studio_details">Details</string>
+    <string name="demo_details">Lorem apsoum demo about us token Lorem apsoum demo about us token  Lorem apsoum demo about us token  Lorem apsoum demo about us token</string>
+    <string name="book_now">Book Now</string>
+    <string name="call">Call</string>
+
+    <string name="sort_by">Sort By \t\t\t     تصنيف</string>
+    <!-- Reservation Order -->
+    <string name="reservation_order">Reservation Order</string>
+    <string name="reservation_order_ar">طلب حجز</string>
+    <!-- youtube player strings -->
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="photography">Photography</string>
+    <string name="videography">Videography</string>
+    <string name="photo_editing">Photo Editing</string>
+    <string name="video_editing">Video Editing</string>
+    <string name="lighting">Lighting</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="contentdesc4pic1">Content</string>
+    <string name="item">Item 1</string>
+    <string name="click_me">Click me</string>
+
+
+    // irent
+    <string name="rule1">1-سنك فوق 21 (ممكن حد أكبر منك هو اللي يأجرلك - والدك - أخوك).</string>
+    <string name="rule2">2-لازم تكون معاك البطاقه وتكون ساريه وسليمه ويكون معاك اثبات شخصيه تاني رخصه؛باسبور؛كارنيه كليه أو كارنيه نقابه.</string>
+    <string name="rule3">3-تمضي علي عقد ايجار و أيصال امانه بقيمه المعده.</string>
+    <string name="rule4">4-تدفع قيمه الأيجار كامله مقدما+يأمين يوم زياده يسترد وقت رجوع المعده في معادها.</string>
+    <string name="rule5">5-حجز قبلها ب 48 ساعه علي الاقل لضمان وجود المعدة.</string>
+    <string name="rule6">6-مده الايجار 12 ساعه و 24 ساعه من وقت استلام المعدة.</string>
+    <string name="school_course">Courses</string>
+    <string name="school_events">Events</string>
+    <string name="school_groups">Groups</string>
+    <string name="school_videos">Videos</string>
+    <string name="school_tips">Tips</string>
+    <string name="school_evaluation">Evaluation</string>
+    <string name="faq_en">FAQ</string>
+    <string name="faq_ar">الأسئلة الشائعة</string>
+
+    <string name="connection_failure">Check your Internet Connection</string>
+    <string name="response_failure">Response Failure</string>
+    <string name="response_empty">Empty Response</string>
+    <string name="request_success"> Request has been sent successfully</string>
+</resources>

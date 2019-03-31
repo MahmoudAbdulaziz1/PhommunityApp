@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/register_level_popup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Test Level"
+        android:textStyle="bold"/>
+
+</LinearLayout>

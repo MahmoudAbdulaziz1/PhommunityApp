@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="475dp"
+    android:background="@drawable/irent_item"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/sign_layout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:background="#FE0002"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/camera_image"
+        android:layout_width="match_parent"
+        android:layout_height=" 200dp"
+        android:src="@drawable/camera_test"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="0dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/camera_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera Name"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="2"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/rent_per_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera Name"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/rent_per_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera Name"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/rent_request_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent Request"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textAllCaps="false"
+            android:textColor="@color/yellow"
+            android:background="#3C3C3B"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
